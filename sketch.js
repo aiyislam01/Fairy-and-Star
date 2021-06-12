@@ -12,10 +12,10 @@ const Body = Matter.Body;
 
 function preload()
 {
-	starImg = loadImage("images/star.png");
-	bgImg = loadImage("images/starNight.png");
+	starImg = loadImage("star.png");
+	bgImg = loadImage("starNight.png");
 	//load animation for fairy here
-    fairyIMG = loadAnimation("images/fairyImage1.png","images/fairyImage2.png")
+    fairyIMG = loadAnimation("fairyImage1.png","fairyImage2.png")
     
 }
 
@@ -23,7 +23,7 @@ function setup() {
 	createCanvas(800, 750);
 
 	//write code to play fairyVoice sound
- 
+    
 	//create fairy sprite and add animation for fairy
     fairy = createSprite(130,520,)
     fairy.addAnimation("fairy",fairyIMG) 
