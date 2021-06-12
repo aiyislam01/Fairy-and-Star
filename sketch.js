@@ -54,7 +54,7 @@ function draw() {
   console.log(star.y);
 
   //write code to stop star in the hand of fairy
-  if (star.y> 470 && starBody.positions.y > 470){
+  if (star.y> 470 && starBody.position.y > 470){
 	  Matter.Body.setStatistics(starBody,true)
   }
 
